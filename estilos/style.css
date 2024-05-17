@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+ --cor1: #972BF0;
+ --cor2: #2BBBF0;
+ --cor3: #2B3FF0;
+ --cor4: #572BF0;
+ --cor5: #2B7DF0;
+
+ --fonte-padrao: arial, verdana, helvetica, sans-serif;
+ --fonte-h2: 'Fjalla One', sans-serif;
+ --fonte-h1: 'Bebas Neue', sans-serif;
+
+}
+
+body {
+    background-color: #8be0ff9c;
+}
+
+
+header {
+    font-size: 2em;
+    background-image: linear-gradient(to bottom,#2BBBF0,  #972BF0);
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: var(--fonte-h1);
+    font-weight: normal;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    min-width: 260px;
+    background-color: white;
+    margin: auto;
+
+}
+
+main > h1 {
+    margin-bottom: 10px;
+    font-family: var(--fonte-h2);
+    background-color: var(--cor5);
+}
+
+
+main > p {
+    text-indent: 1.5em;
+    text-align: justify;
+    font-family: var(--fonte-padrao);
+    line-height: 1.3em;
+    margin-bottom: 20px;
+    line-height: 2em;
+}
+
+footer {
+    margin-top: 15px;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+
+}
+
+picture img {
+    display: block;
+    margin: auto;
+}
+
+
+h2.h2 {
+    font-size: 1.5em;
+    background-image: linear-gradient( to right, #2BBBF0, white );
+     font-family: var(--fonte-h2);
+}
+
+caption {
+    font-size: 1.3em;
+}
+
+main aside#sujestao {
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgba(62, 39, 83, 0.363);
+    border-radius: 10px 10px ;
+    margin: auto;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+
+td, th {
+    padding:20px ;
+    border: 1px solid black;
+}
+
+p.section {  
+    font-size: 1.4em;
+    background-color: #572BF0;
+}
+
+p.seção {
+    padding-top: 30px;
+    font-size: 1.3em;
+}
+
+div.container {
+    overflow-x: auto;
+}
+
+td.foot {
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    border: 0;
+}
+
+
+menu {
+    display: none;
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(68, 64, 64);
+    color: white;
+    text-align: center;
+    border-top: 2px solid gray;
+}
+
+menu a:hover {
+    background-color: gray; 
+    text-decoration: none;
+}
+
+span#burguer {
+    background-color: rgb(49, 49, 49);
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+footer p {
+    text-align: left;
+}
