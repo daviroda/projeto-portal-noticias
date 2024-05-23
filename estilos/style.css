@@ -96,7 +96,7 @@ main aside#sujestao {
     padding-bottom: 30px;
     text-align: center;
     background-color: rgba(62, 39, 83, 0.363);
-    border-radius: 20px 20px 10px 10px;
+    border-radius: 20px;
     margin: auto;
 
 }
@@ -115,12 +115,15 @@ td, th {
 
 p.section {  
     font-size: 1.4em;
+    border-radius: 10px;
     background-color: #572BF0;
 }
 
 p.seção {
     padding-top: 30px;
     font-size: 1.3em;
+    padding-bottom: 20px;
+
 }
 
 div.container {
